@@ -16,6 +16,8 @@ button.addEventListener("click", function(){
 
     if(prompt.includes("cafeteria")){
 
+      document.body.style.background = "#3b2416"
+
       title.innerHTML = "☕ Cafeteria Moderna"
 
       text.innerHTML = "Uma landing page elegante para amantes de café."
@@ -23,6 +25,8 @@ button.addEventListener("click", function(){
     }
 
     else if(prompt.includes("academia")){
+
+      document.body.style.background = "#3a0d0d"
 
       title.innerHTML = "🏋️ Academia Fitness"
 
@@ -32,6 +36,8 @@ button.addEventListener("click", function(){
 
     else if(prompt.includes("roupa")){
 
+      document.body.style.background = "#2b103d"
+
       title.innerHTML = "👕 Loja de Roupas"
 
       text.innerHTML = "Uma página moderna para vender moda online."
@@ -39,6 +45,8 @@ button.addEventListener("click", function(){
     }
 
     else{
+
+      document.body.style.background = "#0f172a"
 
       title.innerHTML = "🚀 Landing Page Criada"
 
